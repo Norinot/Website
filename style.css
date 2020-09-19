@@ -4,9 +4,13 @@
 }
 .test{
     min-height: 100px;
-    background-color: bisque;
+    background-color: #cccccc;
 }
 .leftonclick{
     min-height: 100px;
     background-color: #7f7f7f;
+}
+.bcgall{
+    width: 100%;
+    background-color: #df1515;
 }
