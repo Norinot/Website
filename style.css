@@ -21,6 +21,9 @@
 }
 .bcpic{
     background-color: rgba(0, 0, 0, 0.8);
+    height: 45vh;
+    display: block;
+    margin: auto;
 }
 .bcgall{
     background-image: url("background.png");
@@ -28,3 +31,5 @@
 .secondone{
     height: 90vh;
 }
+
+
