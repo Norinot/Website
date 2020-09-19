@@ -1,7 +1,8 @@
 .asd {
     background-color: aqua;
+    min-height: 100px;
 }
 .test{
-
+    min-height: 100px;
     background-color: bisque;
 }
