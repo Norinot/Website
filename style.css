@@ -19,6 +19,9 @@
 .pic{
     height: 200px;
 }
+.bcpic{
+    background-color: rgba(0, 0, 0, 0.8);
+}
 .bcgall{
     background-image: url("background.png");
 }
