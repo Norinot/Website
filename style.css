@@ -1,8 +1,12 @@
 .asd{
     min-height: 100px;
-    background-color: aqua;
+    background-color: #cccccc;
 }
 .test{
     min-height: 100px;
     background-color: bisque;
+}
+.leftonclick{
+    min-height: 100px;
+    background-color: #7f7f7f;
 }
