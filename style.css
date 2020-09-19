@@ -19,3 +19,9 @@
 .pic{
     height: 200px;
 }
+.bcgall{
+    background-image: url("background.png");
+}
+.secondone{
+    height: 90vh;
+}
