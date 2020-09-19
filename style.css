@@ -11,16 +11,18 @@
     background-color: #7f7f7f;
 }
 .backgroundred{
-    height: 100vh;
+    
     background-color: #df1515;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 }
 .pic{
     height: 200px;
 }
 .bcgall{
     background-image: url("background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .secondone{
     height: 90vh;
