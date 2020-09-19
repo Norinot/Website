@@ -1,16 +1,16 @@
 .asd{
-    min-height: 100px;
+    min-height: 10vh;
     background-color: #cccccc;
 }
 .test{
-    min-height: 100px;
+    min-height: 10vh;
     background-color: #cccccc;
 }
 .leftonclick{
-    min-height: 100px;
+    min-height: 10vh;
     background-color: #7f7f7f;
 }
 .bcgall{
-    width: 100%;
+    height: 90vh;
     background-color: #df1515;
 }
