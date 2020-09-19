@@ -1,55 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    
+    <meta charset="UTF-8">  
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <title>Website</title>
+    <title>Daffduff arts</title>
 </head>
 <body>
-    <div class="container-fluid backgroundred bcgall">
-        <div class="row">
-            <div class="col-md-2 asd"></div>
-            <div class="col-md-9 test"></div>
-            <div class="col-md-1 leftonclick "></div>
-        </div>
-        <div class="container-fluid gal">
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-md-4 bcpic"><img class="d-block mx-auto float-right pic" src="picture.png" alt="Second slide"></div>
-                                <div class="col-md-4 bcpic"><img class="d-block mx-auto pic" src="picture.png" alt="Second slide"></div>
-                                <div class="col-md-4 bcpic"><img class="d-block mx-auto float-left pic" src="guido.png" alt="Second slide"></div>
+    <div class="container-fluid backgroundred">
+        <div class="row firstone">
+            <div class="col-md-2 asd"><img src="assets/pictures/logo.png" class="img-fluid " style="max-width: 100px;"></div>
+            <div class="col-md-9 test"><img src="assets/pictures/longlogo.png" class="img-fluid" style="max-width: 500px;"></div>
+            <div class="col-md-1 leftonclick">                
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                  </div>
+                  <span onclick="openNav()">Click</span>
+                  <script>  
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                    }
 
-                                <div class="col-md-4 bcpic"><img class="d-block mx-auto float-right pic" src="picture.png" alt="Second slide"></div>
-                                <div class="col-md-4 bcpic"><img class="d-block mx-auto pic" src="picture.png" alt="Second slide"></div>
-                                <div class="col-md-4 bcpic"><img class="d-block mx-auto float-left pic" src="picture.png" alt="Second slide"></div>
-                            </div>
+
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+                  <div id="main">
+                  </div>
+            </div>
+        </div>
+    <div class="row secondone">
+        <div class="container-fluid bcgall">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4 bcpic"><img class="d-block mx-auto float-right pic" src="picture.png" alt="Second slide"></div>
+                            <div class="col-md-4 bcpic"><img class="d-block mx-auto pic" src="picture.png" alt="Second slide"></div>
+                            <div class="col-md-4 bcpic"><img class="d-block mx-auto float-left pic" src="guido.png" alt="Second slide"></div>
+
+                            <div class="col-md-4 bcpic"><img class="d-block mx-auto float-right pic" src="picture.png" alt="Second slide"></div>
+                            <div class="col-md-4 bcpic"><img class="d-block mx-auto pic" src="picture.png" alt="Second slide"></div>
+                            <div class="col-md-4 bcpic"><img class="d-block mx-auto float-left pic" src="picture.png" alt="Second slide"></div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="..." alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="..." alt="Third slide">
-                    </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                    </a>
                 </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="..." alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="..." alt="Third slide">
+                </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
         </div>
+    </div>
     </div>
 </body>
 </html>
