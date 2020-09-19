@@ -10,7 +10,9 @@
     min-height: 10vh;
     background-color: #7f7f7f;
 }
-.bcgall{
+.backgroundred{
     height: 90vh;
     background-color: #df1515;
+    padding-left: 0;
+    padding-right: 0;
 }
