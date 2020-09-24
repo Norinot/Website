@@ -1,69 +1,118 @@
-.asd{
-    min-height: 10vh;
-    background-color: #cccccc;
+html{
+    min-height: 100vh;
+    
 }
-.test{
-    min-height: 10vh;
-    background-color: #cccccc;
-}
-.leftonclick{
-    min-height: 10vh;
-    background-color: #7f7f7f;
-}
-.backgroundred{  
-    padding: 0;
-    height: 100vh;
+.backcol{ 
+    position: relative;
+    overflow: hidden;
+    padding: 0 !important;
+    min-height: 100vh;
+    
     background-color: #df1515;
+    
 }
-.pic{
-    height: 200px;
-}
-.bcgall{
+.backpic{
+    position: absolute;
+    left: 0;
+    padding: 0 !important;
+    min-height: 100vh;
+    min-width: 100%;
     background-image: url("background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
-.secondone{
-    height: 90vh;
-}
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color:#cccccc;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
-}
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-  
 
-.sidenav a:hover {
-    color: #f1f1f1;
+#right{
+    position: absolute;
+    right: -250px;    
+    min-height: 100vh;
+    min-width: 250px;
+    z-index: 101 !important;
+    padding: 0 !important;
+    background-color: gray!important;
+    
 }
-.sidenav .closebtn {
+
+.anim1{
+    animation: mymove2 1s;
+    animation-fill-mode: forwards;
+}
+
+.anim2{
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+.anim3{
+    animation: mymove4 1s;
+    animation-fill-mode: forwards;
+}
+
+.anim4{
+    animation: mymove3 1s;
+    animation-fill-mode: forwards;
+}
+
+.min{
+    min-height: 100px;;
+}
+
+#logos{
+    min-width: 100%;
+    min-height: 100px;
+    background-color: #cccccc ;
+    z-index: 100;
+}
+
+#pre{
+    min-height: 100px;
+}
+
+#mainlogo{
+    height: 100px;
+}
+
+#gomb{
+    position: absolute;
+    top: 200px;
+}
+
+#butt{
     position: absolute;
     top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    right: 0;
+    height: 100px ;
 }
-#main {
-    transition: margin-left .5s;
-    padding: 20px;
+
+.chanse{
+    min-height: 50px;
+    text-align: center !important;
+}
+
+.chanse a{
+    
+    font-weight: bold;
+    font-size: large;    
+    color: black;
+}
+
+  @keyframes mymove {
+    0%   {right: -250px;}
+    100% {right: 0px;}
   }
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
+
+  @keyframes mymove2 {
+    0%   {left: 0px ;}
+    100% {left: -250px;}
+  }
+
+  @keyframes mymove3 {
+    0%   {right: 0px;}
+    100% {right: -250px;}
+  }
+
+  @keyframes mymove4 {
+    0%   {left: -250px;}
+    100% {left: 0px;}
+  }
